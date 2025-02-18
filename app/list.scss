@@ -1,0 +1,39 @@
+// Import Bootstrap
+// Bootstrap
+@use "bootstrap/scss/bootstrap";
+
+// Table Styling
+table {
+    border-radius: 10px;
+    overflow: hidden;
+
+    th, td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+}
+
+// Hover Effect on Rows
+tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+// Pagination Styling
+
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+
+    .page-link {
+        color: #007bff;
+    }
+
+    .page-item.active .page-link {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+}
