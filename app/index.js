@@ -1,4 +1,6 @@
 // index.js
+import './index.scss'
+
 document.addEventListener('DOMContentLoaded', () => {
     const menuLinks = document.querySelectorAll('nav a');
 
